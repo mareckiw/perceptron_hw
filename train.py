@@ -1,7 +1,8 @@
 import numpy as np
 import pandas as pd
 from sklearn.datasets import load_iris
-import joblib
+from joblib import dump
+import pickle
 # from model import Perceptron
 from sklearn.linear_model import Perceptron
 
